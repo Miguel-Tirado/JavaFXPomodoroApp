@@ -8,7 +8,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="383.0" prefWidth="595.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pomofx_win.PomoController">
    <children>
-      <Label fx:id="myLabel" alignment="CENTER" layoutX="235.0" layoutY="55.0" prefHeight="56.0" prefWidth="125.0" text="mm:ss">
+      <Label fx:id="myLabel" alignment="CENTER" layoutX="212.0" layoutY="49.0" prefHeight="62.0" prefWidth="168.0" text="hh:mm:ss">
          <font>
             <Font name="System Bold" size="36.0" />
          </font>

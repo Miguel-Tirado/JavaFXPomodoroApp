@@ -42,7 +42,8 @@ public class PomoController implements Initializable {
     @Override
     public void initialize(URL argo0, ResourceBundle arg1) {
         myLabel.textProperty().bind(Bindings.createStringBinding(() ->
-                        String.format("%02d:%02d",
+                        String.format("%02d:%02d:%02d",
+                                remainingDuration.get().toHoursPart(),
                                 remainingDuration.get().toMinutesPart(),
                                 remainingDuration.get().toSecondsPart()),
                 remainingDuration));
